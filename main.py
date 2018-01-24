@@ -1,9 +1,9 @@
 nama = input("Ketikkan nama yang akan dicoba \n").lower() # untuk menerima input, dapat menerima input huruf kapital/non kapital
-nama = nama.replace(" ","") # digunakan untuk menghapus spasi dari input
+nama = nama.split() # untuk memisahkan input berdasarkan spasi
 jmlI = jmlB = jmlD = jmlO = jmlA = jmlU = jmlE = jmlT = jmlL = 0
 
-# Mengecek setiap huruf yang ada di dalam nama
-for huruf in nama: 
+# Mengecek setiap huruf yang ada di nama pertama
+for huruf in nama[0]:
     if 'i' in huruf:
         jmlI += 1
     if 'b' in huruf:
