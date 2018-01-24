@@ -1,4 +1,4 @@
-nama = input("Ketikkan nama yang akan dicoba \n") # untuk menerima input
+nama = input("Ketikkan nama yang akan dicoba \n").lower() # untuk menerima input, dapat menerima input huruf kapital/non kapital
 nama = nama.replace(" ","") # digunakan untuk menghapus spasi dari input
 jmlI = jmlB = jmlD = jmlO = jmlA = jmlU = jmlE = jmlT = jmlL = 0
 
